@@ -21,7 +21,7 @@ A new FSM module was created to act as the sequence detector. The FSM works by m
 |               | 1       | C          | 0        |
 *Table 1.1 List of states and corresponding input/outputs. State A represents the idle state and State F represents the final state*
 
-![[images/WhatsApp Image 2026-04-12 at 18.52.15.jpeg]]
+![Alt text](images/WhatsApp Image 2026-04-12 at 18.52.15.jpeg)
 *Figure 1.1: State diagram for FSM*
 
 The states must be encoded by assigning them a binary value. For 8 states, 3 bit codes must be used. For optimal encoding, adjacent states were encoded only 1 bit apart when possible. See below for table containing the encoded states. There were no redundant states in this design so it could not be minimized. 
